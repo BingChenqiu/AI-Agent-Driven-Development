@@ -62,8 +62,8 @@
 **人类的核心工作：维护语义契约和验收标准。**
 
 ### 五、 边界与局限：ADD 的冷思考
-ADD 并非银弹，推行前需认清其边界：
-1. **复合错误率**：AI 单步准确率虽高，但在长链路任务中误差会放大。ADD 更适合探索性开发和非关键路径，而非核心系统的全部托付。
+ADD 并非万灵药，推行前需认清其边界：
+1. **复合错误率**：AI 单步准确率虽高，但在长链路任务中误差会放大。因此，强有力的验证和测试手段更显得尤为重要。
 2. **文档腐化风险**：上下文文档若与代码脱节，会引发更致命的"逻辑幻觉"。
 3. **隐形成本**：频繁加载庞大上下文会带来显著的 API 成本和响应延迟。
 4. **企业合规**：将核心业务规则传给云端大模型可能面临数据隐私和监管风险。
@@ -406,4 +406,4 @@ uv run scripts/generate_context.py ./src/modules/user --type module
 | [OpenClaw](https://github.com/openclaw/openclaw) | 开源 AI 助手框架，`AGENTS.md` 是 AI 原生项目指南的绝佳示例 |
 | [Nexus-skills](https://github.com/Haaaiawd/Nexus-skills) | AI 代码库知识库生成工具，PROBE 协议设计参考 |
 | [**add-knowledge-builder**](https://github.com/BingChenqiu/AI-Agent-Driven-Development) | 现有项目 ADD 化改造 skill|
-| [**ADD-工程规范**](https://github.com/BingChenqiu/AI-Agent-Driven-Development) | 完整的 AI 原生工程规范（见附件） |
+| [**ADD-工程规范**](https://github.com/BingChenqiu/AI-Agent-Driven-Development) | 完整的 AI 原生工程规范 |
